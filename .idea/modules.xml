@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ITP4501-Assignment-IQ-Test.iml" filepath="$PROJECT_DIR$/.idea/ITP4501-Assignment-IQ-Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ITP4501_Assignment.iml" filepath="$PROJECT_DIR$/.idea/modules/ITP4501_Assignment.iml" group="ITP4501_Assignment" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="ITP4501_Assignment/app" />
     </modules>
   </component>
 </project>
