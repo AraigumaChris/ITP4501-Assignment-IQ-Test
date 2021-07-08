@@ -37,7 +37,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_5_API_24" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-07-08T16:30:17.297Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-07-08T16:33:24.010Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -50,7 +50,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -125,5 +125,9 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="128" y="0" width="1141" height="715" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1625761129987" />
+    <state x="93" y="93" width="1095" height="535" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1625761986212">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="93" y="93" width="1095" height="535" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1280.720@0.0.1280.720" timestamp="1625761986212" />
   </component>
 </project>
