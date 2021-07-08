@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".QuestionLogActivity"
+    android:background="@drawable/gradient_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gameLayout2"
+        android:orientation="horizontal"
+        android:gravity="right">
+
+
+        <Button
+            android:id="@+id/btPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginTop="0.03in"
+            android:onClick="btPlayOnClick"
+            android:text="@string/play"
+            android:background="@drawable/roundbutton"
+            android:paddingLeft="0.2in"
+            android:paddingRight="0.2in"/>
+
+        <Button
+            android:id="@+id/btTitleScreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginTop="0.03in"
+            android:text="@string/titleScreen"
+            android:onClick="btTitleScreenOnClick"
+            android:background="@drawable/roundbutton"
+            android:paddingLeft="0.1in"
+            android:paddingRight="0.1in"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_background">
+
+        <TableLayout
+            android:id="@+id/tbData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:baselineAligned="true"
+            android:background="@drawable/gradient_background"/>
+    </ScrollView>
+
+
+
+</LinearLayout>

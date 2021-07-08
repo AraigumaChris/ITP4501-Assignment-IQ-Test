@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".TestLogBarCharActivity"
+    android:id="@+id/TestLogBarLayout"
+    android:background="@drawable/gradient_background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gameLayout2"
+        android:orientation="horizontal"
+        android:gravity="right">
+
+
+        <Button
+            android:id="@+id/btPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0.03in"
+            android:onClick="btPlayOnClick"
+            android:text="@string/play"
+            android:layout_weight="1"
+            android:background="@drawable/roundbutton"/>
+
+        <Button
+            android:id="@+id/btTitleScreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="0.03in"
+            android:text="@string/titleScreen"
+            android:onClick="btTitleScreenOnClick"
+            android:background="@drawable/roundbutton"/>
+    </LinearLayout>
+
+</LinearLayout>

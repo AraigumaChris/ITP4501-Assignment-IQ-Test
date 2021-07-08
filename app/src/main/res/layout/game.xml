@@ -1,0 +1,153 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameActivity"
+    android:id="@+id/gameLayout1"
+    android:background="@drawable/gradient_background">
+
+    <!--AnswerWay Testview   -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvQustionWay"
+        android:text="@string/questonWay"
+        android:layout_margin="0.1in"
+        android:textSize="0.15in"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+    <!--Question Testview   -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvQustion"
+        android:text="THe Question will show here"
+        android:layout_marginRight="0.12in"
+        android:layout_marginLeft="0.12in"
+        android:layout_marginTop="0.05in"
+        android:layout_marginBottom="0.05in"
+        android:textSize="0.125in"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:background="@drawable/backtext"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvQustionNumber"
+        android:text=""
+        android:layout_marginRight="0.12in"
+        android:layout_marginLeft="0.12in"
+        android:layout_marginTop="0.05in"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvScore"
+        android:text=""
+        android:layout_marginRight="0.12in"
+        android:layout_marginLeft="0.12in"
+        android:layout_marginBottom="0.05in"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+
+    <!--Answer RadioButton Group   -->
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0.15in"
+        android:layout_marginLeft="0.15in"
+        android:layout_marginRight="0.15in"
+        android:id="@+id/rgAnswer">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbChoiceFirst"
+            android:text="First Choice will be here"
+            android:textSize="0.11in"
+            android:layout_marginBottom="0.05in"
+            android:onClick="choiceOneOnClick"
+
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbChoiceSecond"
+            android:text="Second Choice will be here"
+            android:textSize="0.11in"
+            android:layout_marginBottom="0.05in"
+            android:onClick="choiceSecondOnClick"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbChoiceThird"
+            android:text="Third Choice will be here"
+            android:textSize="0.11in"
+            android:layout_marginBottom="0.05in"
+            android:onClick="choiceThirdOnClick"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbChoiceFourth"
+            android:text="Fourth Choice will be here"
+            android:textSize="0.11in"
+
+            android:onClick="choiceFourthOnClick"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCountDown"
+        android:text=""
+        android:gravity="right"
+        android:layout_marginLeft="0.1in"
+        android:layout_marginRight="0.1in"
+        android:layout_marginBottom="0.1in"
+        android:textSize="0.15in"
+        android:textStyle="bold"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvResult"
+        android:text=""
+        android:gravity="center"
+        android:layout_marginLeft="0.1in"
+        android:layout_marginRight="0.1in"
+        android:textSize="0.15in"
+        android:textStyle="bold"
+
+
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/answerPic"
+        android:layout_marginTop="0.20in"
+        android:layout_marginBottom="0.20in"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:maxWidth="1.25in"
+        android:maxHeight="1.25in"
+
+        />
+
+
+
+</LinearLayout>

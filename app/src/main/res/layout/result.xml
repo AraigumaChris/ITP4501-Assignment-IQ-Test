@@ -1,0 +1,134 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameResultActivity"
+    android:id="@+id/resultLayout1"
+    android:background="@drawable/gradient_background">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTitle"
+        android:text="@string/resultTitle"
+        android:layout_margin="0.1in"
+        android:textSize="0.15in"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTotalTimeTitle"
+        android:text="@string/totalTimeSpent"
+        android:layout_marginTop="0.12in"
+        android:layout_marginLeft="0.12in"
+        android:layout_marginRight="0.12in"
+        android:textSize="0.125in"
+        android:background="@drawable/backtext"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTotalTime"
+        android:text=""
+        android:layout_marginTop="0.12in"
+        android:layout_marginLeft="0.12in"
+        android:layout_marginRight="0.12in"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="0.125in"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAverageTimeTitle"
+        android:text="@string/averageTimeSpent"
+        android:layout_marginTop="0.12in"
+        android:layout_marginLeft="0.12in"
+        android:layout_marginRight="0.12in"
+        android:textSize="0.125in"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:background="@drawable/backtext"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAverageTime"
+        android:text=""
+        android:layout_marginTop="0.05in"
+        android:layout_marginLeft="0.12in"
+        android:layout_marginRight="0.12in"
+        android:textSize="0.125in"
+        android:textColor="#000000"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNumOfCorrectedTitle"
+        android:text="@string/numOfCorrectAnswer"
+        android:layout_marginTop="0.12in"
+        android:layout_marginLeft="0.12in"
+        android:layout_marginRight="0.12in"
+        android:textSize="0.125in"
+        android:background="@drawable/backtext"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNumOfCorrected"
+        android:text="151598561"
+        android:layout_marginTop="0.05in"
+        android:layout_marginLeft="0.12in"
+        android:layout_marginRight="0.12in"
+        android:textSize="0.125in"
+        android:textColor="#000000"
+        android:textStyle="bold"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gameLayout2"
+        android:orientation="horizontal"
+        android:gravity="right">
+
+
+        <Button
+            android:id="@+id/btTryAgain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="0.03in"
+            android:background="@drawable/roundbutton"
+            android:text="@string/tryAgain"
+            android:onClick="btTryAgainOnClick"
+            android:paddingLeft="0.1in"
+            android:paddingRight="0.1in"/>
+
+        <Button
+            android:id="@+id/btTitleScreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="0.03in"
+            android:background="@drawable/roundbutton"
+            android:text="@string/titleScreen"
+            android:onClick="btTitleScreenOnClick"
+            android:paddingLeft="0.1in"
+            android:paddingRight="0.1in"/>
+    </LinearLayout>
+</LinearLayout>

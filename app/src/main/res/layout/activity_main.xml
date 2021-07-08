@@ -1,0 +1,104 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/mainLayout1"
+    android:background="@drawable/gradient_background">
+
+    <!--AnimPicture-->
+    <ImageView
+        android:id="@+id/pink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pink"
+        android:layout_marginTop="0.2in"
+        android:layout_marginBottom="0.2in"
+
+        />
+    <!--Title  -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="@string/title"
+        android:gravity="center"
+        android:textSize="0.15in"
+        android:layout_marginTop="0.15in"
+        android:layout_marginBottom="0.15in"
+        android:layout_marginLeft="0.2in"
+        android:layout_marginRight="0.2in"
+        android:background="@drawable/backtext"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <!--Start Button  -->
+        <Button
+            android:layout_width="1in"
+            android:layout_height="wrap_content"
+            android:id="@+id/btStart"
+            android:text="@string/startButton"
+            android:layout_gravity="center"
+            android:layout_marginTop="0.1in"
+            android:layout_marginBottom="0.1in"
+            android:onClick="btStartOnClick"
+            android:background = "@drawable/roundbutton"
+            />
+        <!--QuestionsLog Button  -->
+        <Button
+            android:layout_width="1in"
+            android:layout_height="wrap_content"
+            android:id="@+id/btQLog"
+            android:text="@string/QuestionLog"
+            android:layout_gravity="center"
+            android:layout_marginBottom="0.1in"
+            android:onClick="btQuestionLogOnClick"
+            android:background = "@drawable/roundbutton"
+            />
+
+        <!--TestsLog Button  -->
+        <Button
+            android:layout_width="1in"
+            android:layout_height="wrap_content"
+            android:id="@+id/btTLog"
+            android:text="@string/TestsLog"
+            android:layout_gravity="center"
+            android:layout_marginBottom="0.1in"
+            android:onClick="btTestLogOnClick"
+            android:background = "@drawable/roundbutton"
+            />
+
+        <!--deleteRecord Button  -->
+        <Button
+            android:layout_width="1in"
+            android:layout_height="wrap_content"
+            android:id="@+id/btDeleteRecord"
+            android:text="@string/deleteRecord"
+            android:layout_gravity="center"
+            android:onClick="btDeleteRecordOnClick"
+            android:background = "@drawable/roundbutton"
+            />
+
+        <!--Loading   -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvLoading"
+            android:layout_marginTop="0.2in"
+            android:text=""
+            android:layout_gravity="center"
+            android:textSize="0.15in"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

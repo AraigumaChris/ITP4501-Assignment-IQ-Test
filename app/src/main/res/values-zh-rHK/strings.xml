@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">數字序列IQ測驗</string>
+
+    <!-- Activity_Main  start-->
+    <string name="title">數字序列IQ測驗</string>
+    <string name="startButton">開始</string>
+    <string name="QuestionLog">問題記錄</string>
+    <string name="TestsLog">測驗記錄</string>
+    <string name="deleteRecord">刪除遊玩記錄</string>
+
+    <!-- Activity_Main.java  start-->
+    <string name="deleteMessage">所有測驗記錄已經刪除</string>
+    <string name="loading">讀取中...</string>
+    <string name="jsonURL">https://ajtdbwbzhh.execute-api.us-east-1.amazonaws.com/default/201920ITP4501Assignment</string>
+    <!-- Activity_Main end-->
+
+    <!-- GameActivity  start-->
+    <string name="questonWay">選擇正確答案令數字序列以相同方式繼續</string>
+    <string name="submit">提交</string>
+    <string name="next">下一題</string>
+    <!--GameActivity.java-->
+    <string name="result">結果</string>
+    <string name="correct">你答對了 !</string>
+    <string name="wrong">你答錯了 !</string>
+    <string name="timeOut">你沒有在限時內回答問題</string>
+    <string name="gameQuestion">問題</string>
+    <string name="score">分數</string>
+    <!-- GameActivity end-->
+
+    <!--resultActivity Start-->
+    <string name="resultTitle">你的IQ測驗結果</string>
+    <string name="totalTimeSpent">在IQ測驗中總共使用的時間是:</string>
+    <string name="averageTimeSpent">在IQ測驗中平均每一題題目使用的時間是 :</string>
+    <string name="numOfCorrectAnswer">在IQ測驗中總共答對了的題目數目 :</string>
+    <!--resultActivity.java Start-->
+    <string name="seconds"> 秒</string>
+    <string name="correctQuestion">條問題</string>
+    <!--resultActivity end-->
+
+
+
+    <!--database column name start-->
+    <!-- QuestionLog Table -->
+    <string name="questionNo">題號</string>
+    <string name="question">問題</string>
+    <string name="yourAnswer">你的答案</string>
+    <string name="isCorrect">正確?</string>
+    <!-- TestsLog Table -->
+    <string name="testNo">測驗號碼</string>
+    <string name="testDateAndTime">測驗時間</string>
+    <string name="duration">使用時間</string>
+    <string name="correctCount">答對數目</string>
+    <!--database column name end-->
+
+    <!-- testslogActivity start-->
+    <string name="barChart">棒形圖</string>
+    <string name="pieChart">圓形圖</string>
+    <!-- testslogActivity end-->
+
+    <!-- testsLogBarChartActivity start-->
+    <string name="barChartTitle">在不同的IQ測驗中總共答對的題目數目</string>
+    <string name="testNoTitle">測驗號碼</string>
+    <!-- testsLogBarChartActivity end-->
+
+    <!-- the common string for button-->
+    <string name="titleScreen">主頁</string>
+    <string name="tryAgain">再測驗一次</string>
+    <string name="play">進行測驗</string>
+</resources>

@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Numerical Reasoning IQ Test </string>
+
+    <!-- Activity_Main  start-->
+    <string name="title">Numerical Reasoning IQ Test </string>
+    <string name="startButton">Start</string>
+    <string name="QuestionLog">QuestionsLog</string>
+    <string name="TestsLog">TestsLog</string>
+    <string name="deleteRecord">Delete Record</string>
+
+    <!-- Activity_Main.java  start-->
+    <string name="deleteMessage">All the records have been deleted</string>
+    <string name="loading">Loading ...</string>
+    <string name="jsonURL">https://ajtdbwbzhh.execute-api.us-east-1.amazonaws.com/default/201920ITP4501Assignment</string>
+    <!-- Activity_Main end-->
+
+    <!-- GameActivity  start-->
+    <string name="questonWay">Choose the correct alternative that will continue the same pattern .</string>
+    <string name="submit">Submit</string>
+    <string name="next">Next</string>
+    <!--GameActivity.java-->
+    <string name="result">Result</string>
+    <string name="correct">Your Answer in last question is Correct !</string>
+    <string name="wrong">Your Answer in last question is Wrong !</string>
+    <string name="timeOut">You didn\'t answer on time!</string>
+    <string name="gameQuestion">Question</string>
+    <string name="score">Score</string>
+    <!-- GameActivity end-->
+
+    <!--resultActivity Start-->
+    <string name="resultTitle">The Result of your IQ Test</string>
+    <string name="totalTimeSpent">Total time spent on the test is :</string>
+    <string name="averageTimeSpent">The average time on each question is :</string>
+    <string name="numOfCorrectAnswer">Number of corrected answer is :</string>
+    <!--resultActivity.java Start-->
+    <string name="seconds"> seconds</string>
+    <string name="correctQuestion"> questions</string>
+    <!--resultActivity end-->
+
+
+    <!--database column name start-->
+    <!-- QuestionLog Table -->
+    <string name="questionNo">qNo</string>
+    <string name="question">question</string>
+    <string name="yourAnswer">yourAnswer</string>
+    <string name="isCorrect">Correct?</string>
+    <!-- TestsLog Table -->
+    <string name="testNo">testNo</string>
+    <string name="testDateAndTime">testDateAndTime</string>
+    <string name="duration">duration</string>
+    <string name="correctCount">correctCount</string>
+    <!--database column name end-->
+
+    <!-- testslogActivity start-->
+    <string name="barChart">barChart</string>
+    <string name="pieChart">pieChart</string>
+    <!-- testslogActivity end-->
+
+    <!-- testsLogBarChartActivity start-->
+    <string name="barChartTitle">The total correct answer in different tests</string>
+    <string name="testNoTitle">The Test Number</string>
+    <!-- testsLogBarChartActivity end-->
+
+    <!-- the common string for button-->
+    <string name="titleScreen">Title Screen</string>
+    <string name="tryAgain">Try Again</string>
+    <string name="play">Play</string>
+</resources>
