@@ -7,6 +7,6 @@ Numerical Reasoning IQ Test Android application
 
 Implement in the first year (2020/07) of learning programming , w/ lots of noob mistake .
 
-Bad code with bad design . No Object used and laughable shit code .
+Bad code with bad design . Not using OOP.
 
-lazy to rework my app . Just leave it here for ppl to laugh .
+lazy to rework my app . Just leave it here .
