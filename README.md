@@ -5,8 +5,8 @@ ITP4501 Assignment
 
 Numerical Reasoning IQ Test Android application
 
-Implement in the first year (2020/07) of learning programming , w/ lots of noob mistake .
+Implement in the first year (2020/07) of learning programming , w/ lots of mistake .
 
-Bad code with bad design . Not using OOP.
+Not using OOP.
 
-lazy to rework my app . Just leave it here .
+Just leave it here .
